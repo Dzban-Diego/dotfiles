@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Otwórz w terminalu</name>
+	<unique-id>1651594492982688-1</unique-id>
+	<command>terminator --working-directory %f</command>
+	<description>Otwiera terminal w bieżącym położeniu</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Rozpakuj</name>
+	<unique-id>1651596977119026-1</unique-id>
+	<command>tar -xvf %n</command>
+	<description></description>
+	<patterns>*</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>visual-studio-code</icon>
+	<name>VS CODE</name>
+	<unique-id>1651597746999644-1</unique-id>
+	<command>code %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>
