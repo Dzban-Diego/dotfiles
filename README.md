@@ -8,7 +8,7 @@ System
 `yay -S awesome dmenu sddm picom`
 
 Drivers / utils
-`yay -S alsa alsa-utils bluez cups brother-dcpj552dw zip unzip nodejs npm network-manager fish`
+`yay -S alsa alsa-utils bluez cups brother-dcpj552dw zip unzip nodejs npm networkmanager-dmenu-git fish`
 
 Apps
 `yay -S alacritty git bluberry google-chrome-stable thunar github-desktop font-manager pacfinder variety lxapperance pavucontrol obs spotify`
