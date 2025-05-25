@@ -1,0 +1,16 @@
+map . set hidden!
+#cmd open ${{
+#    test -L $f && f=$(readlink -f $f)
+#    case $(file --mime-type $f -b) in
+#        text/*) nano $fx;;
+#        *) for f in $fx; do setsid nano $f > /dev/null 2> /dev/null & done;;
+#    esac
+# }}
+
+map c $ nvim $f
+map e up
+map i down
+map n updir
+map o open
+map s select $f
+map xx delete
