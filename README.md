@@ -5,16 +5,16 @@ yay
 `pacman -S yay`
 
 System
-`yay -S awesome dmenu sddm picom`
+`yay -S awesome-git dmenu sddm picom`
 
 Drivers / utils
-`yay -S alsa alsa-utils bluez cups brother-dcpj552dw zip unzip nodejs npm networkmanager-dmenu-git nm-connection-editor fish`
+`yay -S alsa alsa-utils bluez cups zip unzip nodejs networkmanager-dmenu-git nm-connection-editor fish pulseaudio-bluetooth playerctl acpi pulseaudio-alsa pulseaudio`
 
 Apps
-`yay -S alacritty git bluberry google-chrome-stable thunar github-desktop font-manager pacfinder variety lxapperance pavucontrol obs spotify`
+`yay -S alacritty git bluberry google-chrome-stable thunar font-manager pacfinder variety lxapperance pavucontrol obs spotify thorium-browser`
 
 Fonts
-`yay -S ttf-font-awesome ttf-hack ttf-hack-nerd`
+`yay -S ttf-font-awesome ttf-hack ttf-hack-nerd otf-apple-sf-pro`
 
 icons
-`yay -S mcmojave-cursors cursor-theme-macos-big-sur`
+`yay -S arc-icon-theme`
